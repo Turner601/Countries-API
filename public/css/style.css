@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #eaeae3;
+}
+
+/* Header */
+header {
+    background: black;
+    padding: 25px 0;
+}
+
+header h1 {
+    color: dodgerblue;
+}
+
+.nav-link {
+    color: red;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+/* Main */
+.home-header {
+    padding: 25px 0;
+    text-transform: capitalize;
+}
+
+.world-image {
+    padding-bottom: 25px;
+}
+
+/* Countries Page */
+.country-flag {
+    height: 250px;
+    width: 450px;
+}
+
+.figure-country a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Single Countries Page */
+.main-h2 {
+    padding: 25px 0;
+}
+
+.country-div {
+    padding: 25px 0;
+}
+
+.figcap-single-country {
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    padding: 25px 0;
+    background: black;
+    text-transform: capitalize;
+}
+
+footer p {
+    color: dodgerblue;
+    font-size: 18px;
+}
+
+footer a {
+    text-decoration: none;
+    color: red;
+}

@@ -1,0 +1,42 @@
+<%- include('../partials/header'); %>
+
+<main class="main main-single-country container text-center">
+    <h2 class="main-h2">
+        <%= name %>
+    </h2>
+    <section class="section3 section-single-country-images">
+        <div class="row justify-content-around country-div">
+            <div class="col-md-3">
+                <img src="<%= data.media.flag %>" alt="<%= data.name %>" class="img-fluid country-flag">
+            </div>
+            <div class="col-md-3">
+                <img src="<%= data.media.emblem %>" alt="<%= data.name %>" class="img-fluid country-flag">
+            </div>
+            <div class="col-md-3">
+                <img src="<%= data.media.orthographic %>" alt="<%= data.name %>" class="img-fluid country-flag">
+            </div>
+        </div>
+    </section>
+    <section class="section1 section-single-country">
+        <figcaption class="figcaption figcap-single-country">
+            <u>Name:</u> <%= data.name %>
+        </figcaption>
+        <figcaption class="figcaption figcap-single-country">
+            <u>Abbreviation:</u> <%= data.abbreviation %>
+        </figcaption>
+        <figcaption class="figcaption figcap-single-country">
+            <u>Capital:</u> <%= data.capital %>
+        </figcaption>
+        <figcaption class="figcaption figcap-single-country">
+            <u>Currency:</u> <%= data.currency %>
+        </figcaption>
+        <figcaption class="figcaption figcap-single-country">
+            <u>Phone:</u> <%= data.phone %>
+        </figcaption>
+        <figcaption class="figcaption figcap-single-country">
+            <u>Population:</u> <%= data.population %>
+        </figcaption>
+    </section>
+</main>
+
+<%- include('../partials/footer'); %>
